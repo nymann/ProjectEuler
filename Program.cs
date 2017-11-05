@@ -13,7 +13,8 @@ namespace ProjectEuler
             //var result = ProblemOne.SumOfMultiples(3, 1000, 3, 5);
             //var result = ProblemTwo.SumOfEvenValuedFibonacciSequenceTerms(4000000);
             //new ProblemThree(600851475143);
-            new ProblemFour();
+            //new ProblemFour();
+            new ProblemFive(20);
 
 
             stopWatch.Stop();
