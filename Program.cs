@@ -14,8 +14,8 @@ namespace ProjectEuler
             //var result = ProblemTwo.SumOfEvenValuedFibonacciSequenceTerms(4000000);
             //new ProblemThree(600851475143);
             //new ProblemFour();
-            new ProblemFive(20);
-
+            //new ProblemFive(20);
+            new ProblemSix(100);
 
             stopWatch.Stop();
             Console.WriteLine($"\nSolved in {stopWatch.ElapsedMilliseconds} msec.");
