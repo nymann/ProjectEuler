@@ -21,7 +21,8 @@ namespace ProjectEuler
             //new ProblemNine(1000);
             //new ProblemTen(2000000);
             //new ProblemEleven(20, 4);
-            new ProblemTwelve(500);
+            //new ProblemTwelve(500);
+            new ProblemThirteen(50);
 
             stopWatch.Stop();
             Console.WriteLine($"\nSolved in {stopWatch.ElapsedMilliseconds} msec.");
