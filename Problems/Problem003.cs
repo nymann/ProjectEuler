@@ -5,7 +5,7 @@ using System.Linq;
 
 namespace ProjectEuler.Problems
 {
-    public class ProblemThree
+    public class Problem003
     {
         /*
          * https://projecteuler.net/problem=3
@@ -17,7 +17,7 @@ namespace ProjectEuler.Problems
         private const int NUMBER_OF_PRIMES_TO_CALCULATE = 10000;
         private readonly List<int> _primes = new List<int>();
 
-        public ProblemThree(long number)
+        public Problem003(long number)
         {
             var stopWatch = new Stopwatch();
             stopWatch.Start();
@@ -35,7 +35,7 @@ namespace ProjectEuler.Problems
             Console.WriteLine($"The largest prime factor of the number {number}, is {ReturnLargestNumber(factors)}!");
         }
 
-        public ProblemThree()
+        public Problem003()
         {
         }
 

@@ -2,7 +2,7 @@
 
 namespace ProjectEuler.Problems
 {
-    public class ProblemSix
+    public class Problem006
     {
         /*
          * https://projecteuler.net/problem=6
@@ -16,7 +16,7 @@ namespace ProjectEuler.Problems
          * Find the difference between the sum of the squares of the first one hundred natural numbers and the square of the sum.
          */
 
-        public ProblemSix(int max)
+        public Problem006(int max)
         {
             double sumOfNumbers = 0;
             double sumOfSquaredNumbers = 0;

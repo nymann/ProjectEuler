@@ -4,9 +4,9 @@ using System.Diagnostics.Eventing.Reader;
 
 namespace ProjectEuler.Problems
 {
-    public class ProblemTwelve
+    public class Problem012
     {
-        public ProblemTwelve(int numberOfDivisors)
+        public Problem012(int numberOfDivisors)
         {
             for (long i = 1; i <= 99999999999; i++)
             {

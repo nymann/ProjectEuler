@@ -2,7 +2,7 @@
 
 namespace ProjectEuler.Problems
 {
-    public class ProblemFour
+    public class Problem004
     {
         /*
          * https://projecteuler.net/problem=4
@@ -15,7 +15,7 @@ namespace ProjectEuler.Problems
          * Find the largest palindrome made from the product of two 3-digit numbers.
          */
 
-        public ProblemFour()
+        public Problem004()
         {
             // double for loop both from 100 to 999
             // multiply the two numbers, and check if palindrone.

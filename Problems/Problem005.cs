@@ -2,7 +2,7 @@
 
 namespace ProjectEuler.Problems
 {
-    public class ProblemFive
+    public class Problem005
     {
         /*
          * https://projecteuler.net/problem=5
@@ -12,12 +12,12 @@ namespace ProjectEuler.Problems
          * What is the smallest positive number that is evenly divisible by all of the numbers from 1 to 20?
          */
 
-        public ProblemFive()
+        public Problem005()
         {
             
         }
 
-        public ProblemFive(int max)
+        public Problem005(int max)
         {
             var number = 2520;
             var m = max;

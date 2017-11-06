@@ -3,9 +3,9 @@ using System.Numerics;
 
 namespace ProjectEuler.Problems
 {
-    public class ProblemFifteen
+    public class Problem015
     {
-        public ProblemFifteen(int n)
+        public Problem015(int n)
         {
             // using 2n!/n!²
             var nominator = Factorial(2 * n);

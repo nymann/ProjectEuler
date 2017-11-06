@@ -1,6 +1,8 @@
-﻿namespace ProjectEuler.Problems
+﻿using System;
+
+namespace ProjectEuler.Problems
 {
-    public class ProblemTwo
+    public class Problem002
     {
         /*
          * https://projecteuler.net/problem=2
@@ -10,7 +12,13 @@
          * By considering the terms in the Fibonacci sequence whose values do not exceed four million, find the sum of the even-valued terms.
          */
 
-        public static int SumOfEvenValuedFibonacciSequenceTerms(int max)
+        public Problem002(int max)
+        {
+            var sum = SumOfEvenValuedFibonacciSequenceTerms(max);
+            Console.WriteLine(sum);
+        }
+
+        private static int SumOfEvenValuedFibonacciSequenceTerms(int max)
         {
             var a = 0;
             var b = 1;

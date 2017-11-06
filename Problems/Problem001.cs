@@ -1,6 +1,8 @@
-﻿namespace ProjectEuler.Problems
+﻿using System;
+
+namespace ProjectEuler.Problems
 {
-    public class ProblemOne
+    public class Problem001
     {
         /*
          * https://projecteuler.net/problem=1
@@ -8,6 +10,11 @@
          * If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9. The sum of these multiples is 23.
          * Find the sum of all the multiples of 3 or 5 below 1000.
          */
+        public Problem001(int min, int max, int a, int b)
+        {
+            var sum = SumOfMultiples(min, max, a, b);
+            Console.WriteLine(sum);
+        }
 
 
         /// <summary>
@@ -18,7 +25,7 @@
         /// <param name="a"></param>
         /// <param name="b"></param>
         /// <returns></returns>
-        public static int SumOfMultiples(int min, int max, int a, int b)
+        private static int SumOfMultiples(int min, int max, int a, int b)
         {
             var sum = 0;
 

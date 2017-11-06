@@ -3,9 +3,9 @@ using System.Linq;
 
 namespace ProjectEuler.Problems
 {
-    public class ProblemThirteen
+    public class Problem013
     {
-        private string[] _input =
+        private readonly string[] _input =
         {
             "37107287533902102798797998220837590246510135740250",
             "46376937677490009712648124896970078050417018260538",
@@ -109,7 +109,7 @@ namespace ProjectEuler.Problems
             "53503534226472524250874054075591789781264330331690"
         };
 
-        public ProblemThirteen(int digitLength)
+        public Problem013(int digitLength)
         {
             var result = "";
             var carry = 0;

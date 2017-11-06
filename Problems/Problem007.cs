@@ -4,11 +4,11 @@ using System.Linq;
 
 namespace ProjectEuler.Problems
 {
-    public class ProblemSeven
+    public class Problem007
     {
         private readonly List<int> _primes = new List<int>();
 
-        public ProblemSeven(int nthPrime)
+        public Problem007(int nthPrime)
         {
             var n = 2;
             while (_primes.Count < nthPrime)

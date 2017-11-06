@@ -4,7 +4,7 @@ using System.Linq;
 
 namespace ProjectEuler.Problems
 {
-    public class ProblemEleven
+    public class Problem011
     {
         private readonly int[] _input =
         {
@@ -37,7 +37,7 @@ namespace ProjectEuler.Problems
         /// </summary>
         /// <param name="sideLengthOfGrid">Fx. 20x20 grid, then sideLenghtOfGrid would be 20</param>
         /// <param name="amountOfAdjacentNumbers"></param>
-        public ProblemEleven(int sideLengthOfGrid, int amountOfAdjacentNumbers)
+        public Problem011(int sideLengthOfGrid, int amountOfAdjacentNumbers)
         {
             var max = TraverseGrid(sideLengthOfGrid, amountOfAdjacentNumbers);
             Console.WriteLine(max);

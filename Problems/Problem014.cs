@@ -2,9 +2,9 @@
 
 namespace ProjectEuler.Problems
 {
-    public class ProblemFourteen
+    public class Problem014
     {
-        public ProblemFourteen(int max)
+        public Problem014(int max)
         {
             long number = 0;
             long highScore = 0;

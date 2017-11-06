@@ -2,7 +2,7 @@
 
 namespace ProjectEuler.Problems
 {
-    public class ProblemNine
+    public class Problem009
     {
         /*
          * https://projecteuler.net/problem=9
@@ -17,7 +17,7 @@ namespace ProjectEuler.Problems
          * Find the product abc.
          */
 
-        public ProblemNine(int sumOfTriplet)
+        public Problem009(int sumOfTriplet)
         {
             for (var a = 1; a < sumOfTriplet/3; a++)
             {

@@ -4,9 +4,9 @@ using System.Linq;
 
 namespace ProjectEuler.Problems
 {
-    public class ProblemTen
+    public class Problem010
     {
-        public ProblemTen(int number)
+        public Problem010(int number)
         {
             long sum = 0;
             for (int i = 0; i < number; i++)

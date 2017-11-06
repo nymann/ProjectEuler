@@ -43,23 +43,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Problems\ProblemEight.cs" />
-    <Compile Include="Problems\ProblemEleven.cs" />
-    <Compile Include="Problems\ProblemFifteen.cs" />
-    <Compile Include="Problems\ProblemFive.cs" />
-    <Compile Include="Problems\ProblemFour.cs" />
-    <Compile Include="Problems\ProblemFourteen.cs" />
-    <Compile Include="Problems\ProblemNine.cs" />
-    <Compile Include="Problems\ProblemOne.cs" />
-    <Compile Include="Problems\ProblemSeven.cs" />
-    <Compile Include="Problems\ProblemSeventeen.cs" />
-    <Compile Include="Problems\ProblemSix.cs" />
-    <Compile Include="Problems\ProblemSixteen.cs" />
-    <Compile Include="Problems\ProblemTen.cs" />
-    <Compile Include="Problems\ProblemThirteen.cs" />
-    <Compile Include="Problems\ProblemThree.cs" />
-    <Compile Include="Problems\ProblemTwelve.cs" />
-    <Compile Include="Problems\ProblemTwo.cs" />
+    <Compile Include="Problems\Problem008.cs" />
+    <Compile Include="Problems\Problem018.cs" />
+    <Compile Include="Problems\Problem011.cs" />
+    <Compile Include="Problems\Problem015.cs" />
+    <Compile Include="Problems\Problem005.cs" />
+    <Compile Include="Problems\Problem004.cs" />
+    <Compile Include="Problems\Problem014.cs" />
+    <Compile Include="Problems\Problem009.cs" />
+    <Compile Include="Problems\Problem001.cs" />
+    <Compile Include="Problems\Problem007.cs" />
+    <Compile Include="Problems\Problem017.cs" />
+    <Compile Include="Problems\Problem006.cs" />
+    <Compile Include="Problems\Problem016.cs" />
+    <Compile Include="Problems\Problem010.cs" />
+    <Compile Include="Problems\Problem013.cs" />
+    <Compile Include="Problems\Problem003.cs" />
+    <Compile Include="Problems\Problem012.cs" />
+    <Compile Include="Problems\Problem002.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

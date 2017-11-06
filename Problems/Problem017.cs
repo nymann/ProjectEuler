@@ -2,9 +2,9 @@
 
 namespace ProjectEuler.Problems
 {
-    public class ProblemSeventeen
+    public class Problem017
     {
-        public ProblemSeventeen(int min, int max)
+        public Problem017(int min, int max)
         {
             long sum = 0;
 

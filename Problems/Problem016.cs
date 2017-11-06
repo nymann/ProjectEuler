@@ -4,14 +4,14 @@ using System.Numerics;
 
 namespace ProjectEuler.Problems
 {
-    public class ProblemSixteen
+    public class Problem016
     {
         /*
          * Power digit sum
          * https://projecteuler.net/problem=16
          */
 
-        public ProblemSixteen(int power)
+        public Problem016(int power)
         {
             var number = BigInteger.Pow(2, power);
             var sum = Sum(number.ToString());
