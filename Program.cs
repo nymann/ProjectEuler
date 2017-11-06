@@ -28,7 +28,8 @@ namespace ProjectEuler
             //new Problem016(1000);
             //new Problem017(1, 1000);
             //new Problem018();
-            new Problem067();
+            new Problem019(1901, 2000);
+            //new Problem067();
 
 
             stopWatch.Stop();
