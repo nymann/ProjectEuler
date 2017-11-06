@@ -29,7 +29,8 @@ namespace ProjectEuler
             //new Problem017(1, 1000);
             //new Problem018();
             //new Problem019(1901, 2000);
-            new Problem020(100);
+            //new Problem020(100);
+            new Problem021(10000);
             //new Problem067();
 
 
