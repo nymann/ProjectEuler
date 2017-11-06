@@ -34,6 +34,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Numerics" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -44,6 +45,7 @@
   <ItemGroup>
     <Compile Include="Problems\ProblemEight.cs" />
     <Compile Include="Problems\ProblemEleven.cs" />
+    <Compile Include="Problems\ProblemFifteen.cs" />
     <Compile Include="Problems\ProblemFive.cs" />
     <Compile Include="Problems\ProblemFour.cs" />
     <Compile Include="Problems\ProblemFourteen.cs" />
@@ -61,6 +63,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
